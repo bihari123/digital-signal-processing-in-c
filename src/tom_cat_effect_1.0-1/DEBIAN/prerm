@@ -1,0 +1,7 @@
+#!/bin/bash
+set -e
+
+# Remove the executable
+rm -f /usr/local/bin/tom_cat_effect
+
+echo "Tom Cat Voice Effect has been removed."

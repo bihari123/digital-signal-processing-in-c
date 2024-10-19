@@ -1,0 +1,15 @@
+#!/bin/bash
+set -e
+
+# Compile the program
+cd /usr/local/share/tom_cat_effect
+make
+cp tom_cat_effect /usr/local/bin/
+
+# Set correct permissions
+chmod 755 /usr/local/bin/tom_cat_effect
+
+# Update library cache
+ldconfig
+
+echo "Tom Cat Voice Effect has been installed successfully!"

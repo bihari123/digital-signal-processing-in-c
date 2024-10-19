@@ -1,0 +1,10 @@
+Package: tom-cat-effect
+Version: 1.0-1
+Section: sound
+Priority: optional
+Architecture: amd64
+Depends: libc6 (>= 2.19), libportaudio2 (>= 19.6.0), build-essential
+Maintainer: Your Name <your.email@example.com>
+Description: Tom Cat Voice Effect
+ A program that applies a Tom Cat voice effect to audio input.
+ It uses PortAudio for real-time audio processing.
